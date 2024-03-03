@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            youtube.com
+        </title>
+        <style>
+            p{
+                font-family: sans-serif, Arial;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+            .thumnail{
+                width: 100%;
+                
+                cursor: pointer;
+            }
+            .searchbar{
+                font-size: 20px;
+                margin-left: 12px;
+                margin-bottom: 10px;
+                display: block;
+            }
+            .vidtitle{
+                margin-bottom: 11px;
+                font-size: 14px;
+                font-weight: 500;
+                cursor: pointer;
+            }
+           
+            .channel, .views{
+                color: rgb(96,96,96);
+                font-size: 12px;
+            }
+            .channel{
+                margin-bottom: 4px;
+            }
+            
+            .channel-pic{
+                width: 50px;
+                vertical-align: top;
+            }
+            .vid-info{
+                width: 200px;
+                
+            }
+            .info{
+                width:300px;
+                display:inline-block;
+            }
+            .profile-pic{
+                width: 35px;
+                border-radius: 50%; 
+                cursor:pointer; 
+            }
+            .thumb-row{
+                margin-bottom: 12px;
+                
+            }
+            .video-grid{
+                display: grid;
+                grid-template-columns: 50px 1fr;
+            }
+            .grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 10px;
+                row-gap: 30px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <input class="searchbar" type="textbox" placeholder="Search">
+        
+        <div class="grid">
+            <div class="vidpreview">
+                <div class="thumb-row">
+                    <img src="thumbnails/reentryspace.webp" class="thumnail">
+                </div>
+        
+                <div class="video-grid">
+                    <div class="channel-pic">
+                        <img src="channelsIcons/realeng.jpg" class="profile-pic">
+                    </div>
+                    <div class="vid-info">
+                        <p class="vidtitle">
+                            Some random video title which is not important!
+                        </p>
+                        <p class="channel">
+                            Channel's Name
+                        </p>
+                        <p class="views">
+                            3.4M views &#183; 6 months ago
+                        </p>
+                    </div>
+                    
+                </div>
+                </div>
+                
+                
+                <div class="vidpreview">
+                <div class="thumb-row">
+                    <img src="thumbnails/philslab.webp" class="thumnail">
+                </div>
+        
+                <div class="video-grid">
+                    <div class="channel-pic">
+                        <img src="channelsIcons/philslab.jpg" class="profile-pic">
+                    </div>
+                    <div class="vid-info">
+                        <p class="vidtitle">
+                            STM32 Bluetooth implementation (1/2)
+                        </p>
+                        <p class="channel">
+                           Phil's Lab
+                        </p>
+                        <p class="views">
+                            720K views &#183; 1 month ago
+                        </p>
+                    </div>
+                </div>
+                </div>
+        
+                    <div class="vidpreview">
+                <div class="thumb-row">
+                    <img src="thumbnails/reentryspace.webp" class="thumnail">
+                </div>
+        
+                <div class="video-grid">
+                    <div class="channel-pic">
+                        <img src="channelsIcons/realeng.jpg" class="profile-pic">
+                    </div>
+                    <div class="vid-info">
+                        <p class="vidtitle">
+                            Some random video title which is not important!
+                        </p>
+                        <p class="channel">
+                            Channel's Name
+                        </p>
+                        <p class="views">
+                            3.4M views &#183; 6 months ago
+                        </p>
+                    </div>
+                    
+                </div>
+                </div>
+                
+                
+                <div class="vidpreview">
+                <div class="thumb-row">
+                    <img src="thumbnails/philslab.webp" class="thumnail">
+                </div>
+        
+                <div class="video-grid">
+                    <div class="channel-pic">
+                        <img src="channelsIcons/philslab.jpg" class="profile-pic">
+                    </div>
+                    <div class="vid-info">
+                        <p class="vidtitle">
+                            STM32 Bluetooth implementation (1/2)
+                        </p>
+                        <p class="channel">
+                           Phil's Lab
+                        </p>
+                        <p class="views">
+                            720K views &#183; 1 month ago
+                        </p>
+                    </div>
+                    
+                </div>
+                </div>
+                    
+                <div class="vidpreview">
+                    <div class="thumb-row">
+                        <img src="thumbnails/reentryspace.webp" class="thumnail">
+                    </div>
+            
+                    <div class="video-grid">
+                        <div class="channel-pic">
+                            <img src="channelsIcons/realeng.jpg" class="profile-pic">
+                        </div>
+                        <div class="vid-info">
+                            <p class="vidtitle">
+                                Some random video title which is not important!
+                            </p>
+                            <p class="channel">
+                                Channel's Name
+                            </p>
+                            <p class="views">
+                                3.4M views &#183; 6 months ago
+                            </p>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                    
+                    <div class="vidpreview">
+                    <div class="thumb-row">
+                        <img src="thumbnails/philslab.webp" class="thumnail">
+                    </div>
+            
+                    <div class="video-grid">
+                        <div class="channel-pic">
+                            <img src="channelsIcons/philslab.jpg" class="profile-pic">
+                        </div>
+                        <div class="vid-info">
+                            <p class="vidtitle">
+                                STM32 Bluetooth implementation (1/2)
+                            </p>
+                            <p class="channel">
+                               Phil's Lab
+                            </p>
+                            <p class="views">
+                                720K views &#183; 1 month ago
+                            </p>
+                        </div>
+                        
+                    </div>
+                    </div>
+        </div>
+
+
+        
+        
+        
+        
+    </body>
+</html>
